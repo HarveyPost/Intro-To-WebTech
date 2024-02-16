@@ -68,28 +68,3 @@ article {
 article:hover {
     transform: translateY(-10px);
 }
-
-.history-with-image {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.satoshi-image {
-    width: 150px;
-    height: auto;
-    border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-    .history-with-image {
-        flex-direction: column;
-        /* Stacks the image and text on smaller screens */
-        text-align: center;
-    }
-
-    .satoshi-image {
-        margin-bottom: 20px;
-        /* Adds space between the image and the text on smaller screens */
-    }
-}
