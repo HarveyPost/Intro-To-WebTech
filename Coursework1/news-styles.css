@@ -50,9 +50,15 @@ nav ul li a.active {
     text-align: center;
 }
 
+.features {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
 article {
     background: #fff;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -63,31 +69,42 @@ article:hover {
     transform: translateY(-10px);
 }
 
-.history-with-image {
+.news-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 20px;
+    padding: 20px;
 }
 
-.satoshi-image {
-    width: auto;
-    max-width: 250px;
-    height: auto;
+.news-article {
+    background-color: #fff;
+    padding: 20px;
     border-radius: 8px;
-    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
 }
 
-@media (max-width: 768px) {
-    .history-with-image {
-        flex-direction: column;
-        text-align: center;
-    }
+.news-article h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
 
-    .satoshi-image {
-        width: 50%;
-        max-width: 120px;
-        margin: 20px auto;
-    }
+.news-article p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.news-article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.news-article a:hover {
+    text-decoration: underline;
 }
 
 footer {
