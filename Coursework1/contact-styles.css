@@ -91,7 +91,7 @@ article:hover {
 
 .contact-left-title h2 {
     font-weight: 600;
-    color: rgb(14, 171, 171);
+    color: black;
     font-size: 40px;
     margin-bottom: 5px;
 }
@@ -100,7 +100,7 @@ article:hover {
     border: none;
     width: 120px;
     height: 5px;
-    background-color: rgb(14, 171, 171);
+    background-color: white;
     border-radius: 10px;
     margin-bottom: 20px;
 }

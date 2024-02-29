@@ -69,6 +69,52 @@ article:hover {
     transform: translateY(-10px);
 }
 
+.crypto-wallet,
+.choosing-crypto,
+.trading-strategies {
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.wallet-steps,
+.crypto-factors {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.crypto-factors {
+    list-style: inside;
+    text-align: left;
+}
+
+.crypto-factors li {
+    margin-bottom: 10px;
+}
+
+.trends,
+.risks {
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.trend-items,
+.risk-list {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 20px 0;
+}
+
+.risk-list {
+    list-style: inside;
+    text-align: left;
+}
+
+.risk-list li {
+    margin-bottom: 10px;
+}
+
 footer {
     background-color: #111;
 }
@@ -115,4 +161,21 @@ footer {
 
 .footer-bottom p {
     color: white;
+}
+
+.crypto-factors,
+.risk-list {
+    list-style: none;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.crypto-factors li,
+.risk-list li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
 }
